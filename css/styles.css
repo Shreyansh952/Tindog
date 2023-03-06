@@ -159,9 +159,6 @@ h1,h2,h3,h4,h5,h6 {
 .pricing-btn {
     margin-top: 2.6rem;
 }
-/* cta section  */
-
-
 
 /* footer Section  */
 
@@ -172,12 +169,24 @@ h1,h2,h3,h4,h5,h6 {
 
 
 @media (max-width:1032px) {
+
+    section, footer {
+        min-width: 100vw;
+        min-height: 100vh;
+    }
     .title-img {
         position: static;
         transform: rotate(0);
     }
     .row {
         text-align: center;
+    }
+    #press {
+        padding: 0;
+        min-height: 30vh;
+    }
+    .press-logos {
+        margin-bottom: 0;
     }
 }
 
